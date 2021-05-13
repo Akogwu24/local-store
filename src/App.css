@@ -1,8 +1,14 @@
 html {
   font-size: 62.5%;
+  background-color: aliceblue;
 }
 .img {
   height: 250px;
   width: 280px;
-  object-fit: cover;
+  object-fit: contain;
+}
+.image-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
 }
