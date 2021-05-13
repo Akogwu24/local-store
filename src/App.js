@@ -1,9 +1,10 @@
 import './App.css';
+import ProductCard from './components/ProductCard';
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='bg-red-800'>tailwind is bae</h1>
+      <ProductCard />
     </div>
   );
 }
