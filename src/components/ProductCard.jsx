@@ -10,9 +10,7 @@ const ProductCard = ({ image, productName, productPrice }) => {
         <div>
           <h3 className='font-bold text-4xl'>{productName}</h3>
           <h3 className='font-bold my-5 text-2xl'>$ {productPrice}</h3>
-          <button className='w-42 bg-red-500 py-3 px-5 text-xl rounded-lg my-5 hover:bg-red-400 mr-2 font-bold'>
-            Remove Item
-          </button>
+
           {/* <button className='w-42 bg-green-500 py-3 px-5 text-xl rounded-lg my-5 hover:bg-green-400 ml-2 font-bold'> */}
           {/* Buy Items */}
           {/* </button> */}
